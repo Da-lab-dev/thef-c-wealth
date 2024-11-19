@@ -1,0 +1,52 @@
+* {margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+body {background: url(laptopbg.jpg);
+background-position: center;
+background-size: cover;
+height: 100vh;
+}
+
+.navbar {background-image: linear-gradient(to right, purple, rgb(129, 76, 129));}
+
+.nav-link{transition: all 0.2s;}
+.nav-link:hover{border-bottom: 2px solid plum;
+    background-color: #1d0b1c;}
+
+
+.hero-section {height: 100vh;
+display: flex;
+align-items: center;
+padding: 0 20px;
+}
+
+.hero-section .content {color: #fff;
+max-width: 1200px;
+margin:0 auto;
+width: 100%;}
+
+.hero-section .content h1{font-size: 3rem;
+max-width: 600px;}
+
+.hero-section .content p{font-weight: 300;
+margin-top: 15px;
+max-width: 600px;}
+
+.hero-section .content .btn {background-color:  rgb(206, 44, 206);
+outline: none;
+border: none;
+font-size: 1rem;
+padding: 12px 30px ;
+border-radius: 6px;
+cursor: pointer;
+font-weight: 500;
+margin-top: 38px;
+color: #fff;
+text-decoration: none;
+transition: 0.2s ease;}
+
+
+
+.hero-section .content .btn:hover {background-color: rgba(66, 40, 66, 0.568);}
+
